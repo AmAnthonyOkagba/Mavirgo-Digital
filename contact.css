@@ -1,0 +1,151 @@
+.navbar-brand {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.bg-dark {
+    background-color: #c42828!important;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    /* display: inline-block;
+    vertical-align: top; */
+    width: 100px;
+    height: 100px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #ffffff03;
+    border-color: #ffffff;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #ffffff03;
+    border-color: #ffffff;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #cf4949;
+    border: 1px solid white;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: 1s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.thingshappen h1 {
+    background-color: #ececec;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+@media only screen and (max-width: 680px) {
+    .thingshappen h1 {
+        background-color: #ececec;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 20px;
+        line-height: 80px;
+    }
+}
+
+
+
+.gform_heading h3 {
+    text-align: center;
+    font-family: Hind;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.gform_heading {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+
+.gform {
+    text-align: left;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.thingshap {
+    background-color: #cfcccc;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.thingshap h5 {
+    font-weight: 500;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.3em;
+}
+
+.enddigital {
+    background-color: #c42830;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.copyright h5 {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+[class*="fa-"] {
+    display: inline-block;
+    font-size: 16px;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    top: -2px;
+    word-spacing: 1px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}

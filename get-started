@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mavirgo Digital</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' id='dt-main-css'  href='css/main.min.css' type='text/css' media='all' />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="animate.css">
+        <!-- <link href="http://fonts.googleapis.com/css?family=Raleway:200,400,300,600,500,700" rel="stylesheet" type="text/css"> -->
+        <style>
+            .nav-item:nth-last-child(6) a{
+                color: white!important;
+            }
+        </style>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+        
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+            } // End if
+        });
+        });
+        </script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+            <a class="navbar-brand" href="#"><img class= "logo" src="img/logo2.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"><i class="fa fa-users"></i> About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact Us</a>
+                    </li>    
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html"><i class="fas fa-sign-in-alt"></i> Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-user"></i> Login</a>
+                    </li>
+                    <form class="navbar-form form-inline my-2 my-lg-0" action="searchform.php">
+                        <div class="form-group">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                        </div>
+                    </form>
+                </ul>
+            </div>
+        </nav>
+
+
+
+        <footer class="enddigital">
+                <div class="...">
+                    <div class="copyright">
+                        <h5><img class= "logo" src="img/logo2.png" alt=""><br/>
+                        © 2020 Mavirgo Digital Ltd. | All Rights Reserved.</h5>
+                    </div>
+                </div>
+            </footer>
+            <a href="#" class="scroll-top on"><span class="screen-reader-text">Go to Top</span></a>
+            <script src="js/jquery-3.4.1.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/SmoothScroling.js"></script>
+        </body>
+    </html>
